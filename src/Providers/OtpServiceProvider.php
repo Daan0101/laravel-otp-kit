@@ -16,9 +16,5 @@ class OtpServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/otp.php' => \config_path('otp.php'),
         ], 'otp-config');
-
-        $this->publishes([
-            __DIR__ . '/../Stubs/OtpController.php' => \app_path('Http/Controllers/OtpController.php'),
-        ], 'otp-controller');
     }
 }
