@@ -20,7 +20,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Daan0101\\LaravelOtpKit\\Providers\\OtpServiceProvider"
+            "Daan0101\\LaravelOtpKit\\OtpServiceProvider"
         ]
         }
     }
