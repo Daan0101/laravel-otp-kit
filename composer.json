@@ -1,0 +1,20 @@
+{
+    "name": "daan0101/laravel-otp-kit",
+    "description": "Simple OTP generation and verification for Laravel.",
+    "type": "library",
+    "require": {
+        "php": "^8.4",
+        "illuminate/support": "^12.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daan0101\\LaravelOtpKit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daan Schouten",
+            "email": "173400@student.talland.nl"
+        }
+    ]
+}
