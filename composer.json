@@ -16,5 +16,12 @@
             "name": "Daan Schouten",
             "email": "173400@student.talland.nl"
         }
-    ]
+    ],
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Daan0101\\LaravelOtpKit\\Providers\\OtpServiceProvider"
+        ]
+        }
+    }
 }

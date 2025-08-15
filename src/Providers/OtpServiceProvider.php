@@ -4,7 +4,7 @@ namespace Daan0101\LaravelOtpKit\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class OtpProvider extends ServiceProvider
+class OtpServiceProvider extends ServiceProvider
 {
     public function register()
     {
