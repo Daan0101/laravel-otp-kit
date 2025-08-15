@@ -11,6 +11,9 @@
             "Daan0101\\LaravelOtpKit\\": "src/"
         }
     },
+    "autoload-dev": {
+        "classmap": ["stubs/"]
+    },
     "authors": [
         {
             "name": "Daan Schouten",
