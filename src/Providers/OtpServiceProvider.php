@@ -13,6 +13,8 @@ class OtpServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../config/otp.php' => \config_path('otp.php'),
+        ], 'otp-config');
     }
 }
