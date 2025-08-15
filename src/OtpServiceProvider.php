@@ -1,6 +1,6 @@
 <?php
 
-namespace Daan0101\LaravelOtpKit\Providers;
+namespace Daan0101\LaravelOtpKit;
 
 use Illuminate\Support\ServiceProvider;
 
