@@ -1,5 +1,5 @@
 {
-    "name": "daanp/laravel-otp-kit",
+    "name": "daan0101/laravel-otp-kit",
     "description": "Laravel One Time Password package",
     "type": "library",
     "require": {
