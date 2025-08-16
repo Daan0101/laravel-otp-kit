@@ -28,5 +28,9 @@ class OtpKitServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/otp.php' => config_path('otp.php'),
         ], 'otp-config');
+
+        $this->publishes([
+            __DIR__ . '/../database/migrations/' => database_path('migrations'),
+        ], 'otp-migrations');
     }
 }
