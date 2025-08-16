@@ -2,6 +2,7 @@
 
 namespace Daan0101\LaravelOtpKit;
 
+use Daan0101\LaravelOtpKit\Commands\InstallOtpKit;
 use Illuminate\Support\ServiceProvider;
 
 class OtpKitServiceProvider extends ServiceProvider
@@ -16,6 +17,12 @@ class OtpKitServiceProvider extends ServiceProvider
         $this->app->singleton('otp', function ($app) {
             return new OtpService();
         });
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                InstallOtpKit::class,
+            ]);
+        }
     }
 
     /**
