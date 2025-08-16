@@ -30,7 +30,7 @@ class OtpKitServiceProvider extends ServiceProvider
         ], 'otp-config');
 
         $this->publishes([
-            __DIR__ . '/../database/migrations/' => database_path('migrations'),
+            __DIR__ . '/../database/migrations/0000_00_00_000000_create_otp_table.php' => database_path('migrations/0000_00_00_000000_create_otp_table.php'),
         ], 'otp-migrations');
     }
 }
