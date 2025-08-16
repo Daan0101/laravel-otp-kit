@@ -1,6 +1,6 @@
 <?php
 
-namespace Daanp\LaravelOtpKit;
+namespace Daan0101\LaravelOtpKit;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
