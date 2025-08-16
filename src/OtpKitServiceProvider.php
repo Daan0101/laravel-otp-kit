@@ -2,7 +2,7 @@
 
 namespace Daan0101\LaravelOtpKit;
 
-use Daan0101\LaravelOtpKit\Commands\InstallOtpKit;
+use Daan0101\LaravelOtpKit\Console\InstallCommand;
 use Illuminate\Support\ServiceProvider;
 
 class OtpKitServiceProvider extends ServiceProvider
@@ -20,7 +20,7 @@ class OtpKitServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                InstallOtpKit::class,
+                InstallCommand::class,
             ]);
         }
     }

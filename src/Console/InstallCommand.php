@@ -1,10 +1,10 @@
 <?php
 
-namespace Daan0101\LaravelOtpKit\Commands;
+namespace Daan0101\LaravelOtpKit\Console;
 
 use Illuminate\Console\Command;
 
-class InstallOtpKit extends Command
+class InstallCommand extends Command
 {
     protected $signature = 'otp:install';
 
