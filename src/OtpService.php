@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Log;
 
 class OtpService
 {
-    public function test() {
+    public static function test() {
         \Log::info('Testing OTP Service');
     }
 }
